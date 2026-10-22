@@ -1,0 +1,86 @@
+
+body {
+    background-color: #f5f7fa;
+    color: #222222;
+}
+
+#top {
+    background-color: #eaf2f8;
+    background-image: url("images/tiles.png");
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+}
+
+
+/* Part C: Text and Font Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.intro {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.special {
+    font-weight: bold;
+    color: rgb(128, 0, 0);
+}
+
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.note {
+    font: italic 14px/1.5 Georgia, serif;
+}
+
+
+/* Part D: Links and Lists */
+
+/* Normal unvisited link */
+a:link {
+    color: #0645ad;
+}
+
+/* Visited link */
+a:visited {
+    color: #663399;
+}
+
+/* Mouse hovering over link */
+a:hover {
+    color: #b45309;
+}
+
+/* Link being clicked */
+a:active {
+    color: #c00000;
+}
+
+/* Popular choices list */
+.popular {
+    list-style-type: square;
+}
+
+/* How to order list */
+.ordering {
+    list-style-type: upper-roman;
+}
